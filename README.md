@@ -1,3 +1,5 @@
-# Descodificadas-Transicoes
+# Descodificadas-Transições
 
-Você pode visualizar o site aqui > https://luryanny.github.io/Descodificadas-Transicoes/
+<h1>Inspirado no jogo de NES, Super Mario. </h1>
+
+Confira [aqui](https://luryanny.github.io/Descodificadas-Transicoes/).
