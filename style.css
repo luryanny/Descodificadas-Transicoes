@@ -1,0 +1,49 @@
+html{
+    min-height: 100%;
+    background-color: rgb(121, 193, 235);
+    text-align: center;
+    background-image: url("https://i.ibb.co/5BCmBrF/supermariobrospractice-bigger-removebg-preview.png");
+    background-size: cover;
+    background-position: center center;
+   }
+
+div.alinhamento{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin: 160px auto;
+    justify-content: center;
+   
+
+}
+
+.pulse{
+    animation-name: pulse;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    
+}
+
+@keyframes pulse{
+    0% {transform: scale();}
+    50%{transform: scale(1);}
+    100% {transform: scale(1.1);}
+}
+
+
+
+@keyframes position{
+    0%{top: 30%; left: 0%}
+    50%{top: 0%; left: calc(50% - 100px)}
+    100%{top: 30%; left: calc(100% - 200px)}
+}
+
+
+h3{
+    color: chocolate;
+    font-family: MS Gothic, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    letter-spacing: -2px;
+    line-height: 100%;
+}
